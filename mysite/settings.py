@@ -20,8 +20,9 @@ print(BASE_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
+
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = '()$a6!*zol2@w@&1y#@pvk=!0@$ws5+d#si#*vdb)t-0_51luc'
+SECRET_KEY = '()$a6!*zol2@w@&1y#@pvk=!0@$ws5+d#si#*vdb)t-0_51luc'
 #SECRET_KEY = os.getenv('SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -121,7 +122,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-#STATIC_ROOT = "/home/myusername/myproject/static"
 STATIC_URL = '/static/'
-STATIC_ROOT = "\User\Gonzales\djangogirls"
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
